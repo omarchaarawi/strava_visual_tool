@@ -4,7 +4,7 @@ import os
 
 # Authorize
 auth = os.environ.get("STRAVA_API")
-auth = "Bearer 262b29f91c087435dcbaa77fb60139f2fdd2cdca"
+auth = "Bearer "
 
 before = 56 # Integer | An epoch timestamp to use for filtering activities that have taken place before a certain time. (optional)
 after = 56 # Integer | An epoch timestamp to use for filtering activities that have taken place after a certain time. (optional)
